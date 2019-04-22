@@ -27,8 +27,8 @@ modules:
         group: destinations
         properties:
           name: tinyjs_be
-          url: ~{url}
-        
+          url: '~{url}'
+      
 resources:
   - name: hdi_tinydb
     properties:
