@@ -2,10 +2,10 @@ namespace tinyworld.tinydb;
 
 context tinyf {
     entity world {
-        key continent : String(100);
+        key continent : String(20);
     };
     entity country{
-    	name : String(100);
+    	name : String(20);
     	partof : Association[0..1] to world;
     };
 };
